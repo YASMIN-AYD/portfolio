@@ -1,0 +1,50 @@
+body{
+    background-color: #FEF5DA;
+    
+
+
+}
+.backgroundimg{
+    display: flex;
+    justify-content: end;
+    height: 600px;
+    margin-top:10px ;
+
+}
+header{
+    display: grid;
+    background-color:#593647;
+    padding: 0px;
+    position: -webkit-sticky ;
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    border: 20px solid #593647;
+    grid-template-columns:29px 179px 1030px 29px  ;
+
+    
+
+
+}
+.art h1{
+    font-size: 20px;
+    display: inline;
+    color: #FEF5DA;
+}
+.coeur img{
+    height: 22px;
+}
+.female img{
+
+    height: 29px;
+    margin-left: 100px;
+
+}
+#fe{
+    display: flex;
+    justify-content: flex-end;
+}
+header btn{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
